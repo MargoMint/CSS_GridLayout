@@ -1,0 +1,15 @@
+.sidebar {
+    grid-column: 2 / 3;
+    background-color: rgba(24, 24, 24, 1);
+    padding: 30px 15px;
+    &__list {
+        li {
+            margin-bottom: 35px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+    &__link {
+        color: #ffffff;
+    }
+}

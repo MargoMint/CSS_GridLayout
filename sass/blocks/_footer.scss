@@ -1,0 +1,15 @@
+.footer {
+    grid-area: footer;
+    background-color: rgba(153, 141, 133, 1);
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+    padding: 15px;
+    align-items: center;
+    &_copy {
+        grid-column: 2 / 3;
+    }
+    &_text {
+        grid-column: 3 / 4;
+        text-align: right;;
+    }
+}
