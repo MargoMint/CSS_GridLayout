@@ -1,0 +1,40 @@
+@import '../sass/blocks/header';
+@import '../sass/blocks/main';
+@import '../sass/blocks/aside';
+@import '../sass/blocks/content';
+@import '../sass/blocks/footer';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    background-color: rgba(251, 251, 251, 1);
+    min-height: 100%;
+    display: grid;
+    grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
