@@ -4,15 +4,20 @@
     &__title {
         margin-bottom: 50px;
         font-size: 40px;
+        color: rgba(24, 24, 24, 1);
     }
     &__gallery {
-        margin-bottom: 70px;
+        margin-bottom: 100px;
+    }
+    &__quotes {
+        margin-bottom: 100px;
     }
 }
 .gallery {
     &__title {
         margin-bottom: 10px;
         text-transform: uppercase;
+        color: rgba(24, 24, 24, 1);
     }
     &__items {
         display: grid;
@@ -37,10 +42,31 @@
     }
 }
 
+.quotes {
+    &__wrapper {
+        hr {
+            width: 300px;
+            margin-top: 15px;
+        }
+    }
+    &__text {
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: rgba(24, 24, 24, 1);
+    }
+    &__descr {
+        cursor: pointer;
+        font-weight: 700;
+        color: rgba(175, 162, 154, 1);
+        font-size: 24px;
+    }
+}
+
 .products {
     &__title {
         margin-bottom: 10px;
         text-transform: uppercase;
+        color: rgba(24, 24, 24, 1);
     }
     &__items {
         display: grid;
@@ -68,7 +94,7 @@
     }
     &__name {
         font-size: 18px;
-        color: #000;
+        color: rgba(24, 24, 24, 1);
         font-weight: 700;
         margin-bottom: 10px;
     }
