@@ -1,6 +1,4 @@
 .content {
-    grid-column: 3 / 4;
-    padding-left: 20px;
     &__title {
         margin-bottom: 50px;
         font-size: 40px;
@@ -35,10 +33,7 @@
             height: 100%;
             object-fit: cover;
         }
-        &_big {
-            grid-column: span 2;
-            grid-row: span 2;
-        }
+        
     }
 }
 
@@ -72,7 +67,7 @@
         display: grid;
         gap: 50px 30px; /* между строками 50, между столбцами 30 */
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-auto-rows: 1fr;
+        // grid-auto-rows: 1fr; сейчас это не нужно, но вообще будет раширять область названия у каждой карточки, а не только у той, где длинное название
     }
     &__item {
         display: grid;

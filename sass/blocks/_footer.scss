@@ -6,12 +6,9 @@
     padding: 15px;
     align-items: center;
     &_copy {
-        grid-column: 2 / 3;
         color: rgba(24, 24, 24, 1);
     }
     &_text {
-        grid-column: 3 / 4;
-        text-align: right;
         color: rgba(24, 24, 24, 1);
     }
 }

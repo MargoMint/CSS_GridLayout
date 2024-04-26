@@ -1,12 +1,14 @@
 .sidebar {
-    grid-column: 2 / 3;
+    
     background-color: rgba(24, 24, 24, 1);
     padding: 30px 15px;
+    margin-bottom: 30px;
     &__list {
+        :last-child {
+            margin-bottom: 0;
+        }
         li {
-            margin-bottom: 35px;
-            cursor: pointer;
-            font-size: 18px;
+            margin-bottom: 15px;
         }
     }
     &__link {
